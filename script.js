@@ -4,5 +4,6 @@ const db = "abc123.database.secure.windows.net"
 function endsWith(x, y) {
 //   let index = x.lastIndexOf(y);
 //   return index !== -1 && index === x.length - y.length;
+//   test
   return x.lastIndexOf(y) === x.length - y.length;
 }
