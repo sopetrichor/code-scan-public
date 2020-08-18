@@ -6,3 +6,6 @@ function endsWith(x, y) {
 //   return index !== -1 && index === x.length - y.length;
   return x.lastIndexOf(y) === x.length - y.length;
 }
+
+
+console.log(abc);
