@@ -3,8 +3,7 @@ name: "Code scanning - action"
 on:
   push:
   pull_request:
-  schedule:
-    - cron: '0 19 * * 1'
+  workflow_dispatch:
 
 jobs:
   CodeQL-Build:
